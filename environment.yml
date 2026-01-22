@@ -13,6 +13,9 @@ dependencies:
   - ipykernel
   - sqlite
   - plotly
+  - openpyxl
+  - ipywidgets
+  - xlrd
   - pip
   - pip:
       - python-dotenv
