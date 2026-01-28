@@ -1,27 +1,26 @@
 <div align="center">
 
-# <img src="src/pharmareach_logo.png" width="100" vertical-align="bottom"/> PharmaReach: Strategic HVT Intelligence
+# <img src="src/pharmareach_logo.png" width="300" vertical-align="bottom"/> Strategic HVT Intelligence
 
 [![Python](https://img.shields.io/badge/python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 ![SQL](https://img.shields.io/badge/SQL-SQLite%20Optimization-orange.svg?style=flat&logo=sqlite&logoColor=white)
 ![ML](https://img.shields.io/badge/ML-K--Means%20Clustering-green.svg?style=flat&logo=scikit-learn&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen.svg?style=flat)
 
 </div>
 
 ---
 
-**PharmaReach** is a unified clinical intelligence platform designed to transform fragmented federal payment data into actionable tactical leads. By analyzing 8.6GB of clinical records from 2024, the system identifies **High-Value Targets (HVTs)** based on a proprietary "Scientific DNA" lead score rather than gross payment volume alone.
+**PharmaReach** is a unified clinical intelligence platform designed to transform fragmented federal payment data into actionable tactical leads. By analyzing 8.6GB of clinical records from 2024, the system identifies **High Value Targets (HVTs)** based on a proprietary "Scientific DNA" lead score rather than gross payment volume alone.
 
 ---
 
 ## Key Features
 
 - **Physician Nexus Engine:** A sophisticated entity resolution layer that merges fragmented federal IDs into a single source of truth for 76,000+ unique physicians.
-- **Behavioral Segmentation:** Utilizes K-Means clustering to distinguish "Scientific KOLs" (Research-driven) from "Brand Ambassadors" (Commercial-driven).
-- **Tactical HVT Finder:** A production-ready Streamlit interface providing sales representatives with instant "Top 5" lead lists by city and specialty.
-- **Market Intelligence:** Integrated Tableau dashboards for high-level competitive mapping across Oncology, Cardiology, and Neurology.
+- **Behavioral Segmentation:** Utilizes K-Means clustering to distinguish "Scientific KOLs" (Research driven) from "Brand Ambassadors" (Commercial driven).
+- **Tactical HVT Finder:** A production ready Streamlit interface providing sales representatives with instant "Top 5" lead lists by city and specialty.
+- **Market Intelligence:** Integrated Tableau dashboards for high level competitive mapping across Oncology, Cardiology, and Neurology.
 
 ---
 
@@ -44,7 +43,7 @@ PharmaReach/
 
 ## Technical Appendix: Engineering 8.6GB of Data
 
-Handling a dataset of this magnitude (**8.6GB+**) required a shift from standard memory-bound processing to a **disk-persistent SQL architecture**.
+Handling a dataset of this magnitude (**8.6GB+**) required a shift from standard memory bound processing to a **disk-persistent SQL architecture**.
 
 ### 1. The ETL Pipeline (Chunking)
 
@@ -63,22 +62,12 @@ To ensure the Streamlit app remains responsive (sub-100ms lookups), we optimized
 
 ---
 
-## 🧬 The Strategy: 70/30 Lead Scoring
+## The Strategy: 70/30 Lead Scoring
 
 Unlike traditional CRM lists that only track volume, PharmaReach utilizes a weighted algorithm to identify true influence:
 
 - **70% Market Reach:** Total clinical volume and investment size.
 - **30% Scientific DNA:** The ratio of research/trial funding versus commercial speaking fees.
-
----
-
-## Roadmap
-
-- [x] **Entity Resolution** (Nexus Engine)
-- [x] **Behavioral Clustering** (K-Means)
-- [x] **Streamlit Tactical Interface**
-- [ ] **Predictive Churn Modeling** (Competitor Loyalty tracking)
-- [ ] **Integration** with Salesforce/Veeva CRM APIs
 
 ---
 
@@ -96,9 +85,17 @@ Our analysis of the 2024-2025 payment cycle revealed critical shifts in how top 
 
 - **The Research Gap:** 65% of total spend in Oncology is concentrated in the top 5% of physicians, making "Scientific DNA" the most accurate predictor of market influence.
 - **Competitive Churn:** AstraZeneca currently holds the highest "Market Loyalty" score in Cardiology, creating a high barrier to entry for new market challengers.
-- **Unclaimed Experts:** Our clustering model identified over **1,200 "High-Influence/Low-Spend" physicians**—experts who are actively leading trials but are currently under-served by top-tier commercial teams.
+- **Unclaimed Experts:** Our clustering model identified over **1,200 "High-Influence/Low-Spend" physicians** experts who are actively leading trials but are currently under-served by top-tier commercial teams.
 
 ---
+
+## Roadmap
+
+- [x] **Entity Resolution** (Nexus Engine)
+- [x] **Behavioral Clustering** (K-Means)
+- [x] **Streamlit Tactical Interface**
+- [ ] **Predictive Churn Modeling** (Competitor Loyalty tracking)
+- [ ] **Integration** with Salesforce/Veeva CRM APIs
 
 ### Disclaimer
 
