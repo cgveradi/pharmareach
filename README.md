@@ -1,12 +1,16 @@
-# PharmaReach: Physician HVT Segmentation & Nexus Model
+<div align="center">
 
-# <img src="src/pharmareach?logo.png" width="40" vertical-align="middle"> PharmaReach: Strategic HVT Intelligence
+# <img src="src/pharmareach_logo.png" width="100" vertical-align="bottom"/> PharmaReach: Strategic HVT Intelligence
 
-![Python](https://img.shields.io/badge/python-3.10-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B.svg)
-![SQL](https://img.shields.io/badge/SQL-SQLite%20Optimization-orange.svg)
-![ML](https://img.shields.io/badge/ML-K--Means%20Clustering-green.svg)
-![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+[![Python](https://img.shields.io/badge/python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
+![SQL](https://img.shields.io/badge/SQL-SQLite%20Optimization-orange.svg?style=flat&logo=sqlite&logoColor=white)
+![ML](https://img.shields.io/badge/ML-K--Means%20Clustering-green.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen.svg?style=flat)
+
+</div>
+
+---
 
 **PharmaReach** is a unified clinical intelligence platform designed to transform fragmented federal payment data into actionable tactical leads. By analyzing 8.6GB of clinical records from 2024, the system identifies **High-Value Targets (HVTs)** based on a proprietary "Scientific DNA" lead score rather than gross payment volume alone.
 
