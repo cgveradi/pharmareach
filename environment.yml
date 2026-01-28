@@ -16,6 +16,7 @@ dependencies:
   - openpyxl
   - ipywidgets
   - xlrd
+  - streamlit
   - pip
   - pip:
       - python-dotenv
