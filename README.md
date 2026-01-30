@@ -101,4 +101,8 @@ Our analysis of the 2024-2025 payment cycle revealed critical shifts in how top 
 
 _This project utilizes publicly available CMS OpenPayments data. All lead scores are generated via proprietary weighting algorithms and are intended for strategic simulation purposes._
 
-**Developed by Carlos Vera | January 2026** _Surgical Precision. Strategic Growth._
+## Live Analytics
+
+You can explore the full competitive landscape and physician clusters in the interactive dashboard:
+
+👉 **[Launch PharmaReach Tableau Dashboard](https://public.tableau.com/app/profile/carlos.vera8838/viz/DashboardPharmaReach/Dashboard1?publish=yes)**
